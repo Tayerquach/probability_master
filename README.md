@@ -50,6 +50,7 @@ pip3 install -r requirements.txt
   <summary>Archive</summary>
   <ol>
     <li><a href="#coupons_collector_problem">Coupon Collector's Problem</a></li>
+    <li><a href="#rolling_dice">Rolling Dice Outcomes</a></li>
   </ol>
 </details>
 
