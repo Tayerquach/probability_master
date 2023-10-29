@@ -10,7 +10,12 @@ pip3 install -r requirements.txt
 ``` 
 
 <!-- PROGRAM RUNNING -->
+## Install the module
+```console
+git clone https://github.com/Tayerquach/probability_master.git
+```
 ## Program running
+Moving to the `rolling_dice` folder and run this command 
 ```console 
 python3 dice_rolling.py
 ``` 
