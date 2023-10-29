@@ -35,7 +35,7 @@ Then, it will get to
 ---------------------------------------
 Enter your option: 
 ```
-To get more examples, please refere to [this article](!https://medium.com/@quachmaiboi/mastering-probability-puzzles-dice-day-3-e641b031c816).
+To get more examples, please refere to [this article](https://medium.com/@quachmaiboi/mastering-probability-puzzles-dice-day-3-e641b031c816).
 <!-- CONTRIBUTING -->
 # Contributing
 
