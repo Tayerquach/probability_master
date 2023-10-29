@@ -64,12 +64,19 @@ class Dice:
         """
         dice = [self.num_sides] * self.num_dice
         counts = Counter()
+        outcomes = []
+        probabilities = []
         for roll in range(num_trials):
             counts[sum((randint(1, sides) for sides in dice))] += 1
 
         print('OUTCOME PROBABILITY')
         for outcome in range(len(dice), sum(dice) + 1):
-            print('{}\t{:0.2f}%'.format(outcome, counts[outcome]*100/num_trials))
+            outcomes.append(outcome)
+            probability = counts[outcome]*100/num_trials
+            probabilities.append(probability)
+            print('{}\t{:0.2f}%'.format(outcome, probability))
+
+        return outcomes, probabilities
             
     def get_sum_probability(self, total):
         
