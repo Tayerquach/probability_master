@@ -1,3 +1,11 @@
+"""
+Module for Dice Roll Probability
+    @Author:  Boi Mai Quach
+    @Version: 0.1
+    @Date:   29/10/2023
+
+"""
+
 from random import randint
 from collections import Counter
 import itertools
